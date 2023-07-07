@@ -1,0 +1,65 @@
+.activities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.activities-bar{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
+}
+.activities-bar h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.minutes{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(7, 69, 69);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.minutes p{
+    font-weight: 300;
+    color: white;
+}
+.minutes h4{
+    font-weight: 700;
+    color: white;
+}
+.sleep-hours{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sleep-hours p{
+    font-weight: 300;
+    color: white;
+}
+.sleep-hours h4{
+    font-weight: 700;
+    color: white;
+}
+.calories{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(185, 185, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calories p{
+    font-weight: 300;
+    color: white;
+}
+.calories h4{
+    font-weight: 700;
+    color: white;
+}
